@@ -1,2 +1,1 @@
-asparagus
-# H1
+# Assignment 0
