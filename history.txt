@@ -1,0 +1,113 @@
+    1  echo >> "Hello Bash!"
+    2  echo banka
+    3  echo Hello Bash!
+    4  pwd
+    5  ls
+    6  cd courses
+    7  ls
+    8  mkdir 61D
+    9  ls
+   10  cd 61D
+   11  mkdir hws
+   12  cd hws
+   13  mkdir bash-assignment
+   14  cd bash-assignment
+   15  touch README.md
+   16  ls
+   17  TOUCH meaning-of-life.txt
+   18  ls
+   19  mv meaning-of-life.txt history.txt
+   20  ls
+   21  code .
+   22  git init
+   23  git status
+   24  git add .
+   25  git status
+   26  git log
+   27  git commit -m "initial commit"
+   28  git log
+   29  git branch
+   30  git checkout -b new-feature
+   31  git branch
+   32  touch feature.txt
+   33  git status
+   34  git add feature.txt
+   35  git status
+   36  git commit -m "edited feature.txt"
+   37  git status
+   38  git checkout main
+   39  no
+   40  git branch
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "more changes to feature.txt"
+   45  git checkout main
+   46  git checkout
+   47  git merge new-feature
+   48  ls
+   49  git remote add origin https://github.com/rajbir-longia001/assignment-0.git
+   50  git branch -M main
+   51  git push -u origin main
+   52  ls
+   53  git branch
+   54  git branch -D new-feature
+   55  git branch
+   56  git checkout -b conflict1
+   57  git checkout main
+   58  git status
+   59  git checkout conflict1
+   60  git status
+   61  git checkout main
+   62  git checkout -b conflict2
+   63  git status
+   64  git checkout conflict1
+   65  git status
+   66  git add .
+   67  git commit -m "modified readme and feature.txt"
+   68  git push origin conflict1
+   69  git branch
+   70  git checkout -b conflict3
+   71  git branch
+   72  git checkout main
+   73  git status
+   74  git branch -D conflict3
+   75  git branch -D conflict1 conflict2
+   76  git branch
+   77  git status
+   78  git add .
+   79  git commit -m "reverted back"
+   80  git push origin main
+   81  git pull
+   82  git add .
+   83  git status
+   84  git commit -m "reverted back to normal"
+   85  git push origin main
+   86  git checkout -b conflict1
+   87  git status
+   88  git add .
+   89  git commit -m "brought back changes"
+   90  git checkout main
+   91  git branch
+   92  git checkout conflict1
+   93  git push origin conflict1
+   94  git checkout main
+   95  git checkout -b conflict2
+   96  git status
+   97  git add .
+   98  git commit -m "more changes"
+   99  git push origin conflict2
+  100  git checkout main
+  101  git pull
+  102  git branch
+  103  git branch -D conflict1
+  104  git pull
+  105  git branch
+  106  git branch -D conflict2
+  107  git status
+  108  git add .
+  109  git commit -m "added gitignore"
+  110  git push origin main
+  111  git status
+  112  # Write 200 most recent bash commands to history.txt
+  113  history | tail -n 200 >> history.txt
